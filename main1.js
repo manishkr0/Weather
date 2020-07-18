@@ -47,6 +47,7 @@ let temp = document.querySelector('.temp');
 var t1 = parseInt(`${Math.round(weather.main.temp_min)}`);
  var t2 = parseInt(`${Math.round(weather.main.temp_max)}`);
  var t3 = (t1+t2)/2;
+ 
 
  temp.innerText = t3;
 
